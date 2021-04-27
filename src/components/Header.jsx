@@ -10,6 +10,7 @@ const Header = () => {
         alt='logo'
         initial={{ y: -250, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.3, type: 'spring', stiffness: 120 }}
       />
       <nav class='navbar'>
         <ul>
