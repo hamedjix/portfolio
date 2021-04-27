@@ -1,9 +1,16 @@
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import logo from '../img/logo.png';
 const Header = () => {
   return (
     <header className='header'>
-      <img width='70px' src={logo} alt='' />
+      <motion.img
+        width='70px'
+        src={logo}
+        alt='logo'
+        initial={{ y: -250, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+      />
       <nav class='navbar'>
         <ul>
           <li>
