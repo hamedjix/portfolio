@@ -1,13 +1,12 @@
 .header {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 100px;
+  min-height: 15vh;
   z-index: 999;
-  width: 100%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .navbar {
+  margin-left: auto;
   @include sm {
     display: none;
   }

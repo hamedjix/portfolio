@@ -1,8 +1,16 @@
 import landingImg from '../img/landing.png';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <section className='section home'>
+    <motion.div
+      className='container section'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className='description'>
         <h1>Hamed Jafari</h1>
         <h3>Frontend Web Developer</h3>
@@ -12,10 +20,20 @@ const Home = () => {
           itaque animi quam, voluptatem nam voluptas eligendi nemo quia
           asperiores laudantium!
         </p>
-        <button>Hire Me</button>
+        <Link to='/contact'>
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1.5 }}
+          >
+            Hire Me
+          </motion.button>
+        </Link>
       </div>
-      <img className='landingImg' src={landingImg} alt='landingImage' />
-    </section>
+      <div className='landingImg'>
+        <img src={landingImg} alt='landingImage' />
+      </div>
+    </motion.div>
   );
 };
 

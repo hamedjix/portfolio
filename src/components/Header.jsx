@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import logo from '../img/logo.png';
 const Header = () => {
   return (
-    <header className='header'>
+    <header className='container header'>
       <motion.img
         width='70px'
         src={logo}
@@ -12,14 +12,12 @@ const Header = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, type: 'spring', stiffness: 120 }}
       />
-      <nav class='navbar'>
+      <nav className='navbar'>
         <ul>
           <li>
             <Link to='/'>Home</Link>
           </li>
-          <li>
-            <Link to='/education'>Education</Link>
-          </li>
+
           <li>
             <Link to='/skills'>Skills</Link>
           </li>

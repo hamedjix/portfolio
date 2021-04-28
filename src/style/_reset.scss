@@ -16,12 +16,14 @@ body {
     rgba(62, 20, 86, 1) 100%
   );
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  display: block;
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
@@ -43,6 +45,9 @@ p {
 a {
   text-decoration: none;
   font-size: 1.2rem;
+}
+ul {
+  list-style: none;
 }
 button {
   font-family: 'Quicksand', sans-serif;

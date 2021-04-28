@@ -11,6 +11,60 @@ $screen-lg-max: 992px;
 
 $screen-xl-max: 1200px;
 
+//Container
+// Small devices
+
+@media (max-width: 378px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+// Small devices
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+// Medium devices
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+// Large devices
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+// Extra large devices
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+//Mixins
+
 // Small devices
 @mixin xs {
   @media (max-width: #{$screen-xs-max}) {
