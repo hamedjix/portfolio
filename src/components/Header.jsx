@@ -4,14 +4,16 @@ import logo from '../img/logo.png';
 const Header = () => {
   return (
     <header className='container header'>
-      <motion.img
-        width='70px'
-        src={logo}
-        alt='logo'
-        initial={{ y: -250, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.3, type: 'spring', stiffness: 120 }}
-      />
+      <Link to='/'>
+        <motion.img
+          width='70px'
+          src={logo}
+          alt='logo'
+          initial={{ y: -250, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3, type: 'spring', stiffness: 120 }}
+        />
+      </Link>
       <nav className='navbar'>
         <ul>
           <li>
