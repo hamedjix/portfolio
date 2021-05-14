@@ -4,7 +4,7 @@ import logo from '../img/logo.png';
 const Header = () => {
   return (
     <header className='container header'>
-      <Link to='/portfolio'>
+      <Link to='/'>
         <motion.img
           width='70px'
           src={logo}

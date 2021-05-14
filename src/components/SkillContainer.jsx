@@ -1,7 +1,7 @@
 import skillsData from '../data/skillsData';
 import { motion } from 'framer-motion';
 
-const Skill = (skills) => {
+const Skill = () => {
   return (
     <div className='skills'>
       {skillsData.map((skill) => (
