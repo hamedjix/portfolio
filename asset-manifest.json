@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.27e8066f.chunk.css",
+    "main.js": "/portfolio/static/js/main.09aaf884.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.09aaf884.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.3e06da46.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3e06da46.js.map",
+    "static/js/2.3db35f8e.chunk.js": "/portfolio/static/js/2.3db35f8e.chunk.js",
+    "static/js/2.3db35f8e.chunk.js.map": "/portfolio/static/js/2.3db35f8e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.27e8066f.chunk.css.map": "/portfolio/static/css/main.27e8066f.chunk.css.map",
+    "static/js/2.3db35f8e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3db35f8e.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/portfolio/static/media/Quicksand-Light.d9866972.woff",
+    "static/media/contact.e09944a2.png": "/portfolio/static/media/contact.e09944a2.png",
+    "static/media/landing.162839cb.png": "/portfolio/static/media/landing.162839cb.png",
+    "static/media/logo.c74e9fef.png": "/portfolio/static/media/logo.c74e9fef.png",
+    "static/media/skills.60e40ae1.png": "/portfolio/static/media/skills.60e40ae1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e06da46.js",
+    "static/js/2.3db35f8e.chunk.js",
+    "static/css/main.27e8066f.chunk.css",
+    "static/js/main.09aaf884.chunk.js"
+  ]
+}
