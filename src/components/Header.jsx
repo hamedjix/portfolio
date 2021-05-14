@@ -17,17 +17,17 @@ const Header = () => {
       <nav className='navbar'>
         <ul>
           <li>
-            <Link to='/portfolio'>Home</Link>
+            <Link to='/'>Home</Link>
           </li>
 
           <li>
-            <Link to='/portfolio/skills'>Skills</Link>
+            <Link to='/skills'>Skills</Link>
           </li>
           <li>
-            <Link to='/portfolio/projects'>Projects</Link>
+            <Link to='/projects'>Projects</Link>
           </li>
           <li>
-            <Link className='contact' to='/portfolio/contact'>
+            <Link className='contact' to='/contact'>
               Contact
             </Link>
           </li>
