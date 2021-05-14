@@ -1,8 +1,8 @@
 const projectsData = [
   {
-    name: 'Project 01',
-    description: 'Simple project using HTML , CSS and JavaScript',
-    img: 'img/project01.png',
+    name: 'Music Player',
+    description: 'Using React and chillhop music API',
+    img: 'img/chillhop.png',
     technologies: 'HTML , CSS , JavaScript',
   },
   {
