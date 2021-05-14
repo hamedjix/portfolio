@@ -4,7 +4,7 @@ import logo from '../img/logo.png';
 const Header = () => {
   return (
     <header className='container header'>
-      <Link to='/'>
+      <Link to='/portfolio'>
         <motion.img
           width='70px'
           src={logo}
@@ -17,17 +17,17 @@ const Header = () => {
       <nav className='navbar'>
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/portfolio'>Home</Link>
           </li>
 
           <li>
-            <Link to='/skills'>Skills</Link>
+            <Link to='/portfolio/skills'>Skills</Link>
           </li>
           <li>
-            <Link to='/projects'>Projects</Link>
+            <Link to='/portfolio/projects'>Projects</Link>
           </li>
           <li>
-            <Link className='contact' to='/contact'>
+            <Link className='contact' to='/portfolio/contact'>
               Contact
             </Link>
           </li>
