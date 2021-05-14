@@ -20,7 +20,7 @@ const Home = () => {
           itaque animi quam, voluptatem nam voluptas eligendi nemo quia
           asperiores laudantium!
         </p>
-        <Link to='/contact'>
+        <Link to='/portfolio/contact'>
           <motion.button
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
