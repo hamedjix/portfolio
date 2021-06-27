@@ -7,9 +7,6 @@
 }
 .navbar {
   margin-left: auto;
-  @include sm {
-    display: none;
-  }
   ul {
     list-style: none;
   }

@@ -7,11 +7,11 @@ const projectsData = [
     link: 'https://hamedjix.github.io/music-player/',
   },
   {
-    name: 'Project 02',
-    description: 'Simple project using HTML , CSS and JavaScript',
-    img: 'img/project01.png',
-    technologies: 'HTML , CSS , JavaScript',
-    link: '/',
+    name: 'Github user finder',
+    description: 'Good experience with Restfull APIs',
+    img: 'img/github-finder.png',
+    technologies: 'React',
+    link: 'https://hamedjix.github.io/github-finder/',
   },
   {
     name: 'Project 03',

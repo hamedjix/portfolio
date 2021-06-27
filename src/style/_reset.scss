@@ -42,7 +42,10 @@ p {
   font-size: 1.6rem;
   line-height: 1.5em;
 }
-a {
+a,
+a:visited,
+a:active,
+a:focus {
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -51,8 +54,4 @@ ul {
 }
 button {
   font-family: 'Quicksand', sans-serif;
-}
-
-$breakpoint-tablet: 768px;
-@media (min-width: $breakpoint-tablet) {
 }
