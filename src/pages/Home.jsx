@@ -15,8 +15,12 @@ const Home = () => {
         <h1>Hamed Jafari</h1>
         <h3>Frontend Web Developer</h3>
         <p>
-          I'm a frontend developer highly akilled at html, css and javascript
-          for responsive design, working with React to make
+          Hi, I was an engineer, but always loved to be a programmer, finally I
+          decided to change my career and I did it! Now I'm a frontend developer
+          highly skilled at html, css and javascript for responsive design,
+          worked on some personal project based on react, and successfully
+          worked for two companies. I'm happy because now I'm in the way of my
+          dreams. look at my projects to see what i've done :)
         </p>
         <Link to='/contact'>
           <motion.button
