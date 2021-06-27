@@ -10,13 +10,18 @@ const Projects = () => {
       transition={{ duration: 0.5 }}
     >
       {projectData.map((project) => (
-        <div key={project.name} className='card'>
+        <a
+          href={project.link}
+          target='a_blank'
+          key={project.name}
+          className='card'
+        >
           <img src={project.img} alt='project' />
           <div className='project-description'>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
           </div>
-        </div>
+        </a>
       ))}
     </motion.div>
   );

@@ -15,10 +15,8 @@ const Home = () => {
         <h1>Hamed Jafari</h1>
         <h3>Frontend Web Developer</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          aliquid est quas mollitia, temporibus esse, officia ut incidunt id
-          itaque animi quam, voluptatem nam voluptas eligendi nemo quia
-          asperiores laudantium!
+          I'm a frontend developer highly akilled at html, css and javascript
+          for responsive design, working with React to make
         </p>
         <Link to='/contact'>
           <motion.button
