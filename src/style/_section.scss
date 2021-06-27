@@ -96,6 +96,7 @@
   border: 1px solid white;
   border-radius: 10px;
   overflow: hidden;
+  height: 30rem;
   .project-description {
     padding: 1rem;
 
@@ -110,6 +111,9 @@
   }
   img {
     max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 20rem;
   }
 }
 
